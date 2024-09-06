@@ -1,0 +1,395 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-08-07 17:22:00.082122",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "section_1",
+  "employee_id",
+  "employee_name",
+  "column_break_nebyk",
+  "phone",
+  "designation",
+  "column_break_4rvt8",
+  "division",
+  "department",
+  "column_break_sqvd0",
+  "zone",
+  "region",
+  "column_break_idyxq",
+  "branch",
+  "status",
+  "section_0",
+  "date_of_interview",
+  "column_break_lcl6m",
+  "interviewer_name",
+  "section_2",
+  "que_1",
+  "column_break_najfw",
+  "que_2",
+  "section_3",
+  "que_3",
+  "que_4",
+  "column_break_wknte",
+  "que_6",
+  "que_5",
+  "section_4",
+  "que_7",
+  "que_9",
+  "que_8",
+  "column_break_nmo3t",
+  "que_10",
+  "que_11",
+  "section_5",
+  "que_12",
+  "column_break_lpbmt",
+  "que_13",
+  "section_6",
+  "que_14",
+  "column_break_sayz4",
+  "que_15",
+  "que_16",
+  "section_7",
+  "que_18",
+  "que_19",
+  "column_break_idb23",
+  "que_17",
+  "section_8",
+  "que_20"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_1",
+   "fieldtype": "Section Break",
+   "label": "<h3 style=\"color: #0096FF;\">Section 1: Personal Information </h3>"
+  },
+  {
+   "fieldname": "employee_id",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Employee ID",
+   "read_only": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "employee_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Employee Name",
+   "read_only": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "date_of_interview",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Date of Interview",
+   "reqd": 1
+  },
+  {
+   "fieldname": "interviewer_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Interviewer Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_4rvt8",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "division",
+   "fieldtype": "Data",
+   "label": "Division",
+   "read_only": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "branch",
+   "fieldtype": "Data",
+   "label": "Branch",
+   "read_only": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_idyxq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "designation",
+   "fieldtype": "Data",
+   "label": "Designation",
+   "read_only": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "department",
+   "fieldtype": "Data",
+   "label": "Department",
+   "read_only": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_2",
+   "fieldtype": "Section Break",
+   "label": "<h3 style=\"color: #0096FF;\">Section 2: Reason for Leaving</h3>"
+  },
+  {
+   "fieldname": "que_1",
+   "fieldtype": "Select",
+   "label": "<p style=\"font-size: 15px;\">What prompted you to start looking for another job?</p>",
+   "options": "\nCareer advancement\nCompensation and benefits\nWork-life balance\nWork environment\nLeadership\nPersonal reasons\nRelocation"
+  },
+  {
+   "fieldname": "que_2",
+   "fieldtype": "Small Text",
+   "label": "<p style=\"font-size: 15px;\">Was there a specific event or series of events that led to your decision?</p>",
+   "max_height": "35px"
+  },
+  {
+   "fieldname": "section_3",
+   "fieldtype": "Section Break",
+   "label": "<h3 style=\"color: #0096FF;\">Section 3: Job Satisfaction</h3>"
+  },
+  {
+   "fieldname": "que_3",
+   "fieldtype": "Select",
+   "label": "<p style=\"font-size: 15px;\">How would you rate your overall experience working with us?</p>",
+   "options": "\nExcellent\nGood\nFair\nPoor"
+  },
+  {
+   "fieldname": "que_4",
+   "fieldtype": "Small Text",
+   "label": "<p style=\"font-size: 15px;\">What did you enjoy most about your job?</p>",
+   "max_height": "35px"
+  },
+  {
+   "fieldname": "que_5",
+   "fieldtype": "Small Text",
+   "label": "<p style=\"font-size: 15px;\">What did you enjoy least about your job?</p>",
+   "max_height": "35px"
+  },
+  {
+   "fieldname": "que_6",
+   "fieldtype": "Select",
+   "label": "<p style=\"font-size: 15px;\">Did you have the necessary tools, resources, and support to do your job effectively?</p>",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "section_4",
+   "fieldtype": "Section Break",
+   "label": "<h3 style=\"color: #0096FF;\">Section 4: Work Environment and Culture</h3>"
+  },
+  {
+   "fieldname": "que_7",
+   "fieldtype": "Small Text",
+   "label": "<p style=\"font-size: 15px;\">How would you describe the work environment and culture at our branch?</p>",
+   "max_height": "35px"
+  },
+  {
+   "fieldname": "que_8",
+   "fieldtype": "Select",
+   "label": "<p style=\"font-size: 15px;\">Did you feel valued and recognized for your contributions?</p>",
+   "options": "\nAlways\nOften\nSometimes\nRarely\nNever"
+  },
+  {
+   "fieldname": "que_9",
+   "fieldtype": "Select",
+   "label": "<p style=\"font-size: 15px;\">How was your relationship with your immediate supervisor/manager?</p>",
+   "options": "\nExcellent\nGood\nFair\nPoor"
+  },
+  {
+   "fieldname": "que_10",
+   "fieldtype": "Small Text",
+   "label": "<p style=\"font-size: 15px;\">How was your relationship with your colleagues and team members?</p>",
+   "max_height": "35px"
+  },
+  {
+   "fieldname": "que_11",
+   "fieldtype": "Select",
+   "label": "<p style=\"font-size: 15px;\">Was there adequate communication and collaboration within the branch?</p>",
+   "options": "\nStrongly disagree\nDisagree\nNeutral\nAgree\nStrongly agree"
+  },
+  {
+   "fieldname": "section_5",
+   "fieldtype": "Section Break",
+   "label": "<h3 style=\"color: #0096FF;\">Section 5: Compensation and Benefits</h3>"
+  },
+  {
+   "fieldname": "que_12",
+   "fieldtype": "Select",
+   "label": "<p style=\"font-size: 15px;\">How satisfied were you with your compensation and benefits package?</p>",
+   "options": "\nVery satisfied\nSatisfied\nNeutral\nDissatisfied\nVery dissatisfied"
+  },
+  {
+   "fieldname": "que_13",
+   "fieldtype": "Small Text",
+   "label": "<p style=\"font-size: 15px;\">Were there any specific benefits that you found particularly valuable or lacking?</p>",
+   "max_height": "35px"
+  },
+  {
+   "fieldname": "section_6",
+   "fieldtype": "Section Break",
+   "label": "<h3 style=\"color: #0096FF;\">Section 6: Training and Development</h3>"
+  },
+  {
+   "fieldname": "que_14",
+   "fieldtype": "Select",
+   "label": "<p style=\"font-size: 15px;\">Did you receive adequate training to perform your job effectively?</p>",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "que_15",
+   "fieldtype": "Small Text",
+   "label": "<p style=\"font-size: 15px;\">Were there opportunities for professional growth and development?</p>",
+   "max_height": "35px"
+  },
+  {
+   "fieldname": "que_16",
+   "fieldtype": "Small Text",
+   "label": "<p style=\"font-size: 15px;\">What additional training or development opportunities would you have liked?</p>",
+   "max_height": "35px"
+  },
+  {
+   "fieldname": "section_7",
+   "fieldtype": "Section Break",
+   "label": "<h3 style=\"color: #0096FF;\">Section 7: Feedback and Suggestions</h3>"
+  },
+  {
+   "fieldname": "que_17",
+   "fieldtype": "Small Text",
+   "label": "<p style=\"font-size: 15px;\">Do you have any suggestions for improving the work environment, policies, or procedures at our branch?</p>",
+   "max_height": "35px"
+  },
+  {
+   "fieldname": "que_18",
+   "fieldtype": "Small Text",
+   "label": "<p style=\"font-size: 15px;\">Is there anything we could have done to prevent your departure?</p>",
+   "max_height": "35px"
+  },
+  {
+   "fieldname": "que_19",
+   "fieldtype": "Select",
+   "label": "<p style=\"font-size: 15px;\">Would you consider returning to work with us in the future?</p>",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "section_8",
+   "fieldtype": "Section Break",
+   "label": "<h3 style=\"color: #0096FF;\">Section 8: Final Comments</h3>"
+  },
+  {
+   "fieldname": "que_20",
+   "fieldtype": "Small Text",
+   "label": "<p style=\"font-size: 15px;\">Any additional comments or feedback you would like to share?</p>",
+   "max_height": "35px"
+  },
+  {
+   "fieldname": "column_break_nebyk",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_sqvd0",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_najfw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_wknte",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_lpbmt",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_nmo3t",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_sayz4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_idb23",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "zone",
+   "fieldtype": "Data",
+   "label": "Zone",
+   "read_only": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "region",
+   "fieldtype": "Data",
+   "label": "Region",
+   "read_only": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "phone",
+   "fieldtype": "Data",
+   "label": "Phone",
+   "read_only": 1,
+   "reqd": 1
+  },
+  {
+   "default": "Draft",
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Draft\nSubmitted",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_0",
+   "fieldtype": "Section Break",
+   "label": "Interview Details"
+  },
+  {
+   "fieldname": "column_break_lcl6m",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-08-08 12:28:02.866546",
+ "modified_by": "Administrator",
+ "module": "Sahayog Hrms",
+ "name": "Resignation Form",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [
+  {
+   "color": "Blue",
+   "title": "Draft"
+  },
+  {
+   "color": "Green",
+   "title": "Submitted"
+  }
+ ],
+ "track_changes": 1
+}

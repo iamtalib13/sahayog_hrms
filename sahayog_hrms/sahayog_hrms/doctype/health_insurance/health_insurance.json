@@ -1,0 +1,88 @@
+{
+ "actions": [],
+ "autoname": "field:uhid",
+ "creation": "2024-09-06 11:10:33.742438",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "employee_id",
+  "uhid",
+  "insured_name",
+  "dob",
+  "age",
+  "relationship",
+  "gender",
+  "doj"
+ ],
+ "fields": [
+  {
+   "fieldname": "employee_id",
+   "fieldtype": "Data",
+   "ignore_user_permissions": 1,
+   "label": "EMPLOYEE ID"
+  },
+  {
+   "fieldname": "uhid",
+   "fieldtype": "Data",
+   "label": "UHID",
+   "unique": 1
+  },
+  {
+   "fieldname": "insured_name",
+   "fieldtype": "Data",
+   "label": "INSURED NAME"
+  },
+  {
+   "fieldname": "dob",
+   "fieldtype": "Data",
+   "label": "DOB"
+  },
+  {
+   "fieldname": "age",
+   "fieldtype": "Data",
+   "label": "AGE"
+  },
+  {
+   "fieldname": "relationship",
+   "fieldtype": "Data",
+   "label": "RELATIONSHIP"
+  },
+  {
+   "fieldname": "gender",
+   "fieldtype": "Data",
+   "label": "GENDER"
+  },
+  {
+   "fieldname": "doj",
+   "fieldtype": "Data",
+   "label": "DOJ"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-09-06 12:44:29.764667",
+ "modified_by": "Administrator",
+ "module": "Sahayog Hrms",
+ "name": "Health Insurance",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
