@@ -13,8 +13,7 @@
   "dob",
   "age",
   "relationship",
-  "gender",
-  "doj"
+  "gender"
  ],
  "fields": [
   {
@@ -53,16 +52,11 @@
    "fieldname": "gender",
    "fieldtype": "Data",
    "label": "GENDER"
-  },
-  {
-   "fieldname": "doj",
-   "fieldtype": "Data",
-   "label": "DOJ"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-09-06 12:44:29.764667",
+ "modified": "2024-09-06 12:52:58.889652",
  "modified_by": "Administrator",
  "module": "Sahayog Hrms",
  "name": "Health Insurance",

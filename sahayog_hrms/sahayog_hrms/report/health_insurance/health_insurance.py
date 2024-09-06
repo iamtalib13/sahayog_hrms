@@ -57,12 +57,7 @@ def get_columns():
             "fieldtype": "Data",
             "width": 100,
         },
-         {
-            "fieldname": "doj",
-            "label": "Date of Joining",
-            "fieldtype": "Data",
-            "width": 100,
-        },
+   
     ]
 
 def get_health_insurance_data():
@@ -79,8 +74,7 @@ def get_health_insurance_data():
             dob,
             age,
             relationship,
-            gender,
-            doj
+            gender
         FROM
             `tabHealth Insurance`
         WHERE
